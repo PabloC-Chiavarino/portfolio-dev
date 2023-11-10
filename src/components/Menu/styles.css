@@ -20,6 +20,14 @@
     display: inline-flex;
     gap: 1rem;
     transition: 0.15s;
+    font-size: .75rem;
+    line-height: 1rem;
+    letter-spacing: 2px;
+}
+
+.item-title {
+    margin: 0;
+    min-width: 84px;
 }
 
 .flex-item:hover {
@@ -27,7 +35,7 @@
     color: #d0daed;
 }
 
-.flex-item:hover hr{
+.flex-item:hover hr {
     background-color: #d0daed;
 }
 
@@ -49,4 +57,3 @@ a {
     gap: 1rem;
     color: #8d9eba;
 }
-

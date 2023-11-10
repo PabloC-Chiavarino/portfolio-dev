@@ -15,51 +15,51 @@ const Menu = () => {
         <motion.ul
             initial="hidden"
             animate="visible"
-            transition={{ staggerChildren: '0.25' }}
+            transition={{ delay: 3, staggerChildren: '0.25' }}
             className='index-container'
-            >
+        >
 
-            <motion.li 
-            variants={defaultAnimations}
-            className='list-item'
+            <motion.li
+                variants={defaultAnimations}
+                className='list-item'
             >
                 <a href="">
                     <span className='flex-item'>
                         <hr />
-                        SOBRE MÍ
+                        <h4 className='item-title'>ABOUT</h4>
                     </span>
                 </a>
             </motion.li>
-            <motion.li 
-            className='list-item'
-            variants={defaultAnimations}
+            <motion.li
+                className='list-item'
+                variants={defaultAnimations}
             >
                 <a href="">
                     <span className='flex-item'>
                         <hr />
-                        APTITUDES
+                        <h4 className='item-title'>APTITUDES</h4>
                     </span>
                 </a>
             </motion.li>
-            <motion.li 
-            className='list-item'
-            variants={defaultAnimations}
+            <motion.li
+                className='list-item'
+                variants={defaultAnimations}
             >
                 <a href="">
                     <span className='flex-item'>
                         <hr />
-                        PROYECTOS
+                        <h4 className='item-title'>PROYECTOS</h4>
                     </span>
                 </a>
             </motion.li>
-            <motion.li 
-            className='list-item'
-            variants={defaultAnimations}
+            <motion.li
+                className='list-item'
+                variants={defaultAnimations}
             >
                 <a href="">
                     <span className='flex-item'>
                         <hr />
-                        CONTACTO
+                        <h4 className='item-title'>CONTACTO</h4>
                     </span>
                 </a>
             </motion.li>

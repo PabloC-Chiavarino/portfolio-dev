@@ -1,1 +1,2 @@
-export { default as Greeting } from './Greeting'
+export { default as MyInfo } from './MyInfo'
+export { default as Menu } from './Menu'

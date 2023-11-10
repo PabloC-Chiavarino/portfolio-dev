@@ -1,24 +1,23 @@
-.main__container {
+.info-container {
     display: flex;
     flex-direction: column;
     width: 700px;
-    height: 300px;
+    height: 175px;
     color: #d0daed;
     position: relative;
-    top: 6rem;
+    top: 3rem;
     padding-left: 1rem;
-    
+    margin-left: 4rem;
 }
 
-.main {
-    font-size: 4rem;
+.title {
+    font-size: 3.5rem;
 }
 
-.sub {
-    font-size: 2rem;
+.subtitle {
     font-size: 2rem;
     position: absolute;
     top: 6rem;
     align-self: end;
-    text-shadow: 3px 2px 2px black
+    text-shadow: 2px 1px 1px black
 }

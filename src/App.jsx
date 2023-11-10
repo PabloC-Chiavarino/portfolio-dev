@@ -1,9 +1,12 @@
-import { Greeting } from './components'
+import { MyInfo, Menu } from './components'
 
 function App() {
 
   return (
-    <Greeting/>
+    <>
+      <MyInfo />
+      <Menu />
+    </>
   )
 }
 

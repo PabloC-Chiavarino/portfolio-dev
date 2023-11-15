@@ -3,8 +3,7 @@
     flex-direction: column;
     width: 700px;
     height: 175px;
-    color: #d0daed;
-    position: relative;
+    position: fixed;
     top: 3rem;
     padding-left: 1rem;
     margin-left: 4rem;
@@ -12,6 +11,7 @@
 
 .title {
     font-size: 3.5rem;
+    color: #646e82;
 }
 
 .subtitle {
@@ -19,5 +19,6 @@
     position: absolute;
     top: 6rem;
     align-self: end;
-    text-shadow: 2px 1px 1px black
+    text-shadow: 3px 3px 2px #7b7b7b;
+    color: #333;
 }

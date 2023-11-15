@@ -18,7 +18,7 @@ time, mark, audio, video {
 	font-family: Inter, sans-serif;
 	vertical-align: baseline;
 	user-select: none;
-	background-image: url('./assets/img/radialBackground.png');
+	scroll-behavior: smooth;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  	background-color: #101930;	
+  	background-color: #ffff;	
 }
 ol, ul {
 	list-style: none;
@@ -43,4 +43,9 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.active-scroll-spy {
+	width: 176px;
+	color: #000;
 }

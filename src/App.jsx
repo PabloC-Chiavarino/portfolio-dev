@@ -1,11 +1,12 @@
-import { MyInfo, Menu } from './components'
+import { MyInfo, NavMenu, Content } from './components'
 
 function App() {
 
   return (
     <>
       <MyInfo />
-      <Menu />
+      <NavMenu />
+      <Content />
     </>
   )
 }

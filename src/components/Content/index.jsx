@@ -58,12 +58,12 @@ const Content = () => {
                     <h4 className='section-title'>Lo que hago</h4>
                     <div className='proyects-container'>
                         <h5 className='proyect-title'>Gadget Alley</h5>
-                        <p style={{textAlign: 'center'}}>Proyecto "old school code" sobre venta de artículos tecnológicos (e-commerce). Construído en Vanilla JavaScript y mockAPI, actualmente en versión beta y en proceso de testing</p>
+                        <p style={{textAlign: 'center'}}>Proyecto "old school code" sobre venta de artículos tecnológicos (e-commerce). Construído en Vanilla JavaScript y mockAPI, actualmente en versión beta y en proceso de testing.</p>
                         <a href="https://gadget-alley.vercel.app/" target='__bank'>
                             <img className='proyect-preview' src={proy1} alt="" />
                         </a>
                         <h5 className='proyect-title'>Notebook Depot</h5>
-                        <p style={{textAlign: 'center'}}>Proyecto con estándares actuales. E-commerce sobre venta de notebooks para distintos perfiles de usuario. Construído en React Js con base de datos en Google Firestore. Actualmente terminando su version 2.0 (desarrollo del sistema de usuarios con whislist y responsive design)</p>
+                        <p style={{textAlign: 'center'}}>Proyecto con estándares actuales. E-commerce sobre venta de notebooks para distintos perfiles de usuario. Construído en React Js con base de datos en Google Firestore. Actualmente terminando su version 2.0 (desarrollo del sistema de usuarios con wishlist y responsive design).</p>
                         <a href="https://notebook-depot.vercel.app" target='__blank'>
                             <img className='proyect-preview' src={proy2} alt="" />
                         </a>

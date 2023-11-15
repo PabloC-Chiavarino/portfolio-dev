@@ -1,6 +1,6 @@
 .scroll-container {
     width: 620px;
-    height: 219rem;
+    height: 225rem;
     color: whitesmoke;
     font-weight: bolder;
     position: relative;
@@ -65,7 +65,7 @@
     border-radius: 1rem;
     transition: 0.25s;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .proyect-preview:hover {

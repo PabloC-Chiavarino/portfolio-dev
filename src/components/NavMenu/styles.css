@@ -72,3 +72,12 @@ a {
     cursor: pointer;
     ;
 }
+
+@media (max-width: 575px) and (min-width: 350px) {
+    .index-container {
+        position: relative;
+        top: 4rem;
+        width: 40rem;
+        right: 3rem;
+    }
+}

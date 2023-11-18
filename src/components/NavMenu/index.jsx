@@ -20,7 +20,7 @@ const NavMenu = () => {
                     <a href="#about" >
                         <span className='flex-item' data-to-scrollspy-id='about'>
                             <hr />
-                            <h4 className='item-title' >ABOUT</h4>
+                            <h4 className='item-title' >SOBRE MÍ</h4>
                         </span>
                     </a>
                 </motion.li>

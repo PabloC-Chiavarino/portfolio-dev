@@ -22,3 +22,38 @@
     text-shadow: 3px 3px 2px #7b7b7b;
     color: #333;
 }
+
+@media (max-width: 575px) and (min-width: 350px) {
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 1rem;
+        position: relative;
+        top: 0;
+        right: 3rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+        top: 8rem;
+        text-shadow: 3px 3px 2px #7b7b7b;
+        color: #333;
+        position: absolute;
+    }
+
+
+}
+
+@media (max-width: 575px) and (min-width: 350px) {}
+
+@media (max-width: 767px) and (min-width: 576px) {}
+
+@media (max-width: 991px) and (min-width: 768px) {}
+
+@media (max-width: 1340px) and (min-width: 992px) {}

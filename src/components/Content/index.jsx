@@ -18,15 +18,17 @@ const Content = () => {
                 <div className='profile-item' id='about'>
                     <h4 className='section-title'>Hola !</h4>
                     <p>
-                        Durate toda mi vida tuve mucho interés con lo relacionado al mundo IT, sobretodo del lado de la programación. Disfruto de optimizar las cosas de la vida en general para hacerlas mas amenas y llevaderas.
-                        Vivo con mis dos hermosos hijos y perros en la ciudad de La Plata, Provincia de Buenos Aires, Argentina.
-                        Para mi, si no es lógico, no funciona, y con esa prima me desenvuelvo en la vida en general.
-                        Cuando empecé en desarrollo Web me di cuenta que ésto era lo mio y a partir de ahí comencé una curva de aprendizaje radicada principalmente en las tecnologías Front-End para luego orientarme hacia ReactJs.
-                        En la actualidad, estoy incursionando en el mundo del desarrollo móvil, tanto android nativo como transpilado mediante React Native.
+                        Durate toda mi vida tuve mucha afinidad con lo relacionado al mundo IT y la programación.<br />
+                        Vivo con mis dos hermosos hijos y perros en la ciudad de La Plata, Provincia de Buenos Aires, Argentina.<br />
+                        <br />
+                        Disfruto de optimizar las cosas de la vida en general para hacerlas mas amenas y prácticas. Por ende, me encanta dedicar horas a escribir código ordenado.<br />
+                        Para mí, si no es lógico no funciona, y con esa fórmula me desenvuelvo en la vida en general.<br />
+                        <br />
+                        Cuando comencé desarrollo Web me di cuenta lo que quería hacer y comencé una hermosa ruta de aprendizaje en las tecnologías Front-End, para luego, orientarla hacia React Js. En la actualidad sigo mejorando mis habilidades a diario y soy estudiante de desarrollo móvil nativo (Kotlin) y transpilado (React Native).
                     </p>
                 </div>
                 <div className='profile-item' id='aptitudes' >
-                    <h4 className='section-title'>Qué utilizo actualmente ?</h4>
+                    <h4 className='section-title'>¿ Qué utilizo actualmente ?</h4>
                     <div className='apt-logos-container'>
                         <div>
                             <img src={htmlIcon} className='logos' alt="" />
@@ -55,7 +57,7 @@ const Content = () => {
                     </div>
                 </div>
                 <div className='profile-item' id='proyects'>
-                    <h4 className='section-title'>Lo que hago</h4>
+                    <h4 className='section-title'>Lo que hago :</h4>
                     <div className='proyects-container'>
                         <h5 className='proyect-title'>Gadget Alley</h5>
                         <p style={{textAlign: 'center'}}>Proyecto "old school code" sobre venta de artículos tecnológicos (e-commerce). Construído en Vanilla JavaScript y mockAPI, actualmente en versión beta y en proceso de testing.</p>
@@ -70,7 +72,7 @@ const Content = () => {
                     </div>
                 </div>
                 <div className='profile-item' id='contact'>
-                    <h4 className='section-title'>Ponernos en contacto</h4>
+                    <h4 className='section-title'>Contacto :</h4>
                     <div className='contact-info-container'>
                         <a style={{ color: 'whitesmoke' }} href='https://wa.me/542216545052'>
                             <img src={whatsIcon} className='contact-logos' alt="" />

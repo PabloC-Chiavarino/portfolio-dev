@@ -1,6 +1,6 @@
 .scroll-container {
     width: 620px;
-    height: 230rem;
+    height: 220rem;
     color: whitesmoke;
     font-weight: bolder;
     position: relative;
@@ -37,6 +37,13 @@
     font-size: 2rem;
     line-height: 2rem;
     margin-bottom: 3rem;
+}
+
+.hello-vector {
+    width: 128px;
+    float: right;
+    position: relative;
+    bottom: 1rem;
 }
 
 .apt-logos-container {

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import ScrollSpy from 'react-ui-scrollspy'
 import fadeInAnimation from '../../constants/fadeInAnimation.js'
 import { htmlIcon, cssIcon, jsIcon, reactIcon, gitIcon, firebIcon, whatsIcon, gmailIcon } from '../../assets/ico'
-import { proy1, proy2 } from '../../assets/img'
+import { hello, proy1, proy2 } from '../../assets/img'
 import './styles.css'
 
 const Content = () => {
@@ -16,7 +16,11 @@ const Content = () => {
         >
             <ScrollSpy>
                 <div className='profile-item' id='about'>
-                    <h4 className='section-title'>Hola !</h4>
+                    <h4 
+                        className='section-title'>
+                            Hola !
+                        <img className='hello-vector' src={hello} alt="" />
+                    </h4>
                     <p>
                         Durate toda mi vida tuve mucha afinidad con lo relacionado al mundo IT y la programación.<br />
                         Vivo con mis dos hermosos hijos y perros en la ciudad de La Plata, Provincia de Buenos Aires, Argentina.<br />

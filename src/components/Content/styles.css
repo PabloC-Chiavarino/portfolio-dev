@@ -106,3 +106,45 @@ a {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 575px) and (min-width: 350px) {
+    .scroll-container {
+        width: 100%;
+        top: 8rem;
+        text-align: center;
+        height: 205rem;
+    }
+
+    .profile-item {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        margin-bottom: 0.25rem;
+    }
+
+    .section-title{
+        margin-bottom: 0;
+    }
+
+    .apt-logos-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0;
+        width: 100%;
+        position: relative;
+    }
+
+    .proyect-preview {
+        width: 100%;
+    }
+
+    .contact-info-container{
+        flex-direction: column;
+        height: auto;
+    }
+
+    a{
+        flex-direction: column;
+    }
+}

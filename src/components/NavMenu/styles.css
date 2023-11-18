@@ -76,8 +76,16 @@ a {
 @media (max-width: 575px) and (min-width: 350px) {
     .index-container {
         position: relative;
-        top: 4rem;
+        top: 6rem;
         width: 40rem;
         right: 3rem;
+    }
+
+    .social-list-item{
+        left: 95vw;
+    }
+
+    .social-icons {
+        width: 32px;
     }
 }

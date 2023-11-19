@@ -63,7 +63,7 @@ const NavMenu = () => {
                 
                 <motion.li
                 className='social-list-item'
-                style={{transform: "translate(-5rem, -1rem)"}}
+                style={{transform: "translate(-4rem, -1rem)"}}
                 variants={fadeInAnimation}
                 >
                     <a href="https://www.linkedin.com/in/pabloc-chiavarino/" target="_blank">
@@ -86,14 +86,6 @@ const NavMenu = () => {
                     </a>
                 </motion.li>
             </motion.ul>
-
-            {/* <motion.ul
-                initial="hidden"
-                animate="visible"
-                transition={{ delay: 4 }}
-                className='social-icons-container'
-            > */}
-            {/* </motion.ul> */}
         </>
     )
 }

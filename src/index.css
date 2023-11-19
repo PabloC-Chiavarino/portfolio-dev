@@ -49,3 +49,9 @@ table {
 	width: 176px;
 	color: #000;
 }
+
+@media (max-width: 575px) and (min-width: 350px) {
+	body{
+		overflow-x: hidden !important;
+	}
+}

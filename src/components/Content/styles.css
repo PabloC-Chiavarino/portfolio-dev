@@ -110,17 +110,19 @@ a {
 @media (max-width: 575px) and (min-width: 350px) {
     .scroll-container {
         width: 100%;
-        top: 8rem;
+        top: 10rem;
         text-align: center;
         height: 205rem;
     }
 
     .profile-item {
+        border-radius: 0%;
         width: auto;
         display: flex;
         flex-direction: column;
         top: 0;
         margin-bottom: 0.25rem;
+        background-color: darkslateblue;
     }
 
     .section-title{

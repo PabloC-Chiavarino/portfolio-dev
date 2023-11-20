@@ -112,8 +112,13 @@ a {
         width: 100%;
         top: 10rem;
         text-align: center;
-        height: 205rem;
+        height: auto;
         float: none;
+    }
+
+    .hello-vector {
+        bottom: 0rem;
+        right: 1rem;
     }
 
     .profile-item {
@@ -124,30 +129,35 @@ a {
         top: 0;
         margin-bottom: 0.25rem;
         padding: 0;
+        min-height: 400px;
     }
 
-    .section-title{
+    .section-title {
         margin-bottom: 0;
     }
 
-    .apt-logos-container{
+    .apt-logos-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 0;
         width: 100%;
         position: relative;
     }
 
     .proyect-preview {
-        width: 100%;
+        width: 95%;
     }
 
-    .contact-info-container{
+    .contact-info-container {
         flex-direction: column;
         height: auto;
     }
 
-    a{
+    a {
         flex-direction: column;
+    }
+
+    p {
+        padding: 1rem;
     }
 }

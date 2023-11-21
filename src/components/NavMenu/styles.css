@@ -60,7 +60,7 @@ a {
 }
 
 .social-list-item {
-    left: 40rem;
+    left: 45vw;
     position: absolute;
 }
 
@@ -106,5 +106,47 @@ a {
 
     .social-icons {
         width: 32px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 769px) {
+    .index-container {
+        position: relative;
+        top: 10rem;
+        width: 100%;
+        right: 3rem;
+    }
+
+    .social-list-item {
+        left: 95vw;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 992px) {
+    .index-container{
+        top: 18rem;
+    }
+
+    .social-list-item {
+        left: 31rem;
+        position: absolute;
+    }
+}
+
+@media (max-width: 1210px) and (min-width: 1025px) {
+    .index-container{
+        top: 18rem;
+    }
+
+    .social-list-item {
+        left: 50vw;
+        position: absolute;
+    }
+}
+
+@media (min-width: 1211px) {
+    .social-list-item{
+        left: 42vw;
+        position: absolute;
     }
 }

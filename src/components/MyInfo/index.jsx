@@ -10,7 +10,7 @@ const MyInfo = () => {
                     animate={{ opacity: 1}}
                     transition={{delay: 0.25, duration: 1.5 }}
                     className='title'>
-                    Pablo C. Chiavarino
+                    Pablo César Chiavarino
                 </motion.h2>
                 <motion.h3
                     initial={{ opacity: 0, transform:'translate(-100%)' }}

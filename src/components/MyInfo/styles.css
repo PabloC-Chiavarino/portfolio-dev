@@ -6,7 +6,6 @@
     position: fixed;
     top: 3rem;
     padding-left: 1rem;
-    margin-left: 4rem;
 }
 
 .title {
@@ -30,7 +29,7 @@
         padding-left: 1rem;
         position: relative;
         top: 2rem;
-        right: 3rem;
+        left: 1rem;
     }
 
     .title {
@@ -42,7 +41,7 @@
         top: 8rem;
         text-shadow: 3px 3px 2px #7b7b7b;
         color: #333;
-        transform: translate(10%) !important;
+        transform: translate(0%) !important;
         width: 100%;
     }
 }
@@ -51,7 +50,7 @@
     .info-container{
         width: fit-content;
         position: relative;
-        right: 2rem;
+        left: 0rem;
     }
 
     .title {
@@ -60,9 +59,9 @@
 
     .subtitle {
         font-size: 2rem;
-        top: 10rem;
+        top: 9rem;
         color: #333;
-        transform: translate(0%) !important;
+        transform: translate(-30%) !important;
         width: fit-content;
     }
 }
@@ -71,23 +70,19 @@
     .info-container{
         width: fit-content;
         position: relative;
-        right: 2rem;
+        left: 4rem;
     }
 
     .subtitle {
         font-size: 2rem;
         top: 8rem;
         color: #333;
-        transform: translate(10%) !important;
+        transform: translate(-20%) !important;
         width: fit-content;
     }
 }
 
 @media (max-width: 1280px) and (min-width: 992px) {
-    .info-container{
-        padding-left: 0;
-    }
-
     .title{
         font-size: 3rem;
     }
